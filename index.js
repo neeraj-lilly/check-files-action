@@ -19,7 +19,7 @@ async function checkFileExists(filePath) {
     async () => {
         try {
             core.notice("Hellow World, Custom Action Called!")
-            //checkFileExists("LICENSE");
+            checkFileExists("Podfile");
             checkFileExists("README.md");
 
         } catch (error) {
